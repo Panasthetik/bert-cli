@@ -1,0 +1,11 @@
+[package]
+name = "bert_clap_app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust-bert = "0.19.0"
+anyhow = "1.0.66"
+clap = { version = "4.2.2", features = ["derive"] }
